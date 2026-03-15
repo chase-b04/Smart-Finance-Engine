@@ -1,4 +1,4 @@
-# FlowNotes
+# Smart Finance Engine
 
 Current Stack:
 
