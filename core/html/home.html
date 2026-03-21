@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Smart Finance Engine</title>
+  <link rel="stylesheet" href="{% static 'core/styles.css' %}">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="brand">
+        <div class="logo"></div>
+        <div>
+          Smart Finance Engine
+          <div class="subtitle-small">AI-powered market insights</div>
+        </div>
+      </div>
+      <div class="pill">Python backend • Go ingestion • Financial intelligence</div>
+    </header>
+
+    <main class="hero">
+      <section class="card hero-main">
+        <div class="eyebrow">Financial insights, simplified</div>
+        <h1>Turn company news into clear investment signals.</h1>
+        <p class="subtitle">
+          Search a public company, pull recent news, summarize the story with AI, and analyze sentiment.
+        </p>
+
+        <form class="search" method="post">
+          <input type="text" name="company" placeholder="Apple, NVIDIA, Tesla..." />
+          <button type="submit">Analyze</button>
+        </form>
+      </section>
+    </main>
+  </div>
+</body>
+</html>

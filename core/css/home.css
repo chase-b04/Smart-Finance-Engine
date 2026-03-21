@@ -1,0 +1,52 @@
+:root {
+  --bg: #0b1220;
+  --text: #e8eefc;
+  --muted: #a9b4cc;
+  --accent: #67e8f9;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  background: var(--accent);
+}
+
+.hero {
+  margin-top: 50px;
+}
+
+.card {
+  padding: 30px;
+  background: #111a2e;
+  border-radius: 12px;
+}
+
+.search input {
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.search button {
+  padding: 10px;
+  background: var(--accent);
+  border: none;
+  cursor: pointer;
+}
