@@ -6,4 +6,4 @@ Key features and objectives:\
 -Fetch and analyze "breaking news" or significant events from the past 6 months.\
 -Based on the aggregated news sentiment and potentially key event triggers, provide a qualitative prediction or outlook on the company's stock market value trend\
 -Extract and interpret key data from official financial reports.\
--Enable users to subscribe to daily updates and alerts for selected companies\
+-Enable users to subscribe to daily updates and alerts for selected companies
