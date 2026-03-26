@@ -49,7 +49,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'smart_finance_engine.urls'
+ROOT_URLCONF = 'django_shell.urls'
 
 TEMPLATES = [
     {
@@ -66,7 +66,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'smart_finance_engine.wsgi.application'
+WSGI_APPLICATION = 'django_shell.wsgi.application'
 
 
 # Database
